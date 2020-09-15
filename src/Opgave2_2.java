@@ -7,10 +7,10 @@ public class Opgave2_2 {
         System.out.print("Enter length of sides ");
         System.out.println("and height of the Equilateral triangle : ");
         double lengthOfSides = input.nextDouble();
-        double height = input.nextDouble();
+        double length = input.nextDouble();
 
         double area = (Math.sqrt(3) / 4) * lengthOfSides * lengthOfSides;
-        double volume = area * height;
+        double volume = area * length;
 
         System.out.println("The area is " + area);
         System.out.println("The volume of the trianrular is " + volume);
