@@ -12,7 +12,7 @@ public class Opgave2_9 {
         double v1 = input.nextDouble();
         double t = input.nextDouble();
 
-        
+
 
         double acceleration = values(v0, v1, t);
         System.out.print("The average acceleration is " + acceleration);
